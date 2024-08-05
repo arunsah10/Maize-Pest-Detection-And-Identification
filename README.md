@@ -5,9 +5,11 @@
 
 The Maize Pest Detection and Identification system leverages YOLOv8, a cutting-edge object detection model, to accurately identify and classify various pests affecting maize plants. YOLOv8 excels in real-time object detection by providing high accuracy and speed, thanks to its advanced architecture. 
 
-**YOLOv8**: YOLOv8 (You Only Look Once version 8) is a powerful object detection model that performs end-to-end detection of objects in images. It achieves high performance by simultaneously predicting bounding boxes and class probabilities in a single forward pass through the network. The model gives accuracy of 85%.
+**YOLOv8**: YOLOv8 (You Only Look Once version 8) is a powerful object detection model that performs end-to-end detection of objects in images. It achieves high performance by simultaneously predicting bounding boxes and class probabilities in a single forward pass through the network. The model gives accuracy of 95%.
 
-**Architecture Image**: ![](YOLOv8_self.png)
+**Architecture Image**: 
+
+![](YOLOv8_self.png)
 
 **Comparison with Other Models**: ![](Comparison.png)
 
@@ -31,18 +33,23 @@ The dataset used for training the model includes 8,359 images of maize pests, ca
 - Mole cricket
 
 Each class represents different pests and stages of maize plant growth, enabling the system to detect pests with high precision. The dataset used for the study is in `DataSet on Maize Pests/` folder
+
 ![YOLOv8 vs Other Models](Datasets_PieChart.jpeg)
 
 ## Project Files
 
-- **Jupyter Notebook**: `maize_pests.ipynb` - Contains the complete training process and methodology for the YOLOv8 model.
+- **Jupyter Notebook**: `maize_pests.ipynb` - Contains the complete training process, and implementation of the study using YOLOv8 model.
 - **Weights**: Contains the trained models. Since the Size of trained model is too large so the google drive link is given.
 visit the [Google Drive](https://drive.google.com/drive/folders/1-2SifQO3BlOeNZZ1YPTHMX6EId2KJch5?usp=drive_link).
 - **Results and Analysis**: Includes accuracy metrics, result images, confusion matrix, and plots of validation accuracy vs. epochs and loss vs. epochs.
-   **Result Image**: ![Result Image](path/to/result-image.png)
-   **Confusion Matrix**: ![Confusion Matrix](confusion_matrix.png)
-   **Validation Accuracy vs Epochs**: ![Validation Accuracy](Validation_AccuracyVsEpochs.png)
-   **Loss vs Epochs**: ![Loss vs Epochs](LossAndAccuracy.png)
+   **Result Image**:
+  ![Result Image](Result.png)
+   **Confusion Matrix**:
+  ![Confusion Matrix](confusion_matrix.png)
+   **Validation Accuracy vs Epochs**:
+   ![Validation Accuracy](Validation_AccuracyVsEpochs.png)
+   **Loss vs Epochs**:
+  ![Loss vs Epochs](LossAndAccuracy.png)
 
 ## Advantages and Applications
 
