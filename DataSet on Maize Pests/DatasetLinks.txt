@@ -1,0 +1,11 @@
+The dataset used in the study is merged and preprocessed from the below datasets.
+
+pest detection:_______________________________________________________________________
+
+https://data.mendeley.com/datasets/bwh3zbpkpv/1   ccmt dataset
+
+https://www.kaggle.com/datasets/vencerlanz09/insect-village-synthetic-dataset?resource=download-directory
+
+https://www.kaggle.com/code/vencerlanz09/insect-images-classification-using-yolov5/input?select=Insect+Classes
+
+
