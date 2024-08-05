@@ -7,9 +7,9 @@ The Maize Pest Detection and Identification system leverages YOLOv8, a cutting-e
 
 **YOLOv8**: YOLOv8 (You Only Look Once version 8) is a powerful object detection model that performs end-to-end detection of objects in images. It achieves high performance by simultaneously predicting bounding boxes and class probabilities in a single forward pass through the network. The model gives accuracy of 85%.
 
-**Architecture Image**: ![YOLOv8_self.png)
+**Architecture Image**: ![](YOLOv8_self.png)
 
-**Comparison with Other Models**: ![Comparison.png)
+**Comparison with Other Models**: ![](Comparison.png)
 
 ## Dataset
 
@@ -28,13 +28,15 @@ The dataset used for training the model includes 8,359 images of maize pests, ca
 - Slug
 - Red spider
 - Corn worm
+- Mole cricket
 
-Each class represents different pests and stages of maize plant growth, enabling the system to detect pests with high precision.
+Each class represents different pests and stages of maize plant growth, enabling the system to detect pests with high precision. The dataset used for the study is in `DataSet on Maize Pests/` folder
 ![YOLOv8 vs Other Models](Datasets_PieChart.jpeg)
+
 ## Project Files
 
 - **Jupyter Notebook**: `maize_pests.ipynb` - Contains the complete training process and methodology for the YOLOv8 model.
-- **Weights**: `weights/` - Contains the trained models. Since the Size of trained model is too large so the google drive link is given.
+- **Weights**: Contains the trained models. Since the Size of trained model is too large so the google drive link is given.
 visit the [Google Drive](https://drive.google.com/drive/folders/1-2SifQO3BlOeNZZ1YPTHMX6EId2KJch5?usp=drive_link).
 - **Results and Analysis**: Includes accuracy metrics, result images, confusion matrix, and plots of validation accuracy vs. epochs and loss vs. epochs.
    **Result Image**: ![Result Image](path/to/result-image.png)
