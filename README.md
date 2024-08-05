@@ -32,7 +32,7 @@ The dataset used for training the model includes 8,359 images of maize pests, ca
 - Corn worm
 - Mole cricket
 
-Each class represents different pests and stages of maize plant growth, enabling the system to detect pests with high precision. The dataset used for the study is in `DataSet on Maize Pests/` folder
+Each class represents different pests and stages of maize plant growth, enabling the system to detect pests with high precision. The dataset used for the study is in `DataSet on Maize Pests/` folder.
 
 ![YOLOv8 vs Other Models](Datasets_PieChart.jpeg)
 
@@ -42,7 +42,8 @@ Each class represents different pests and stages of maize plant growth, enabling
 - **Weights**: Contains the trained models. Since the Size of trained model is too large so the google drive link is given.
 visit the [Google Drive](https://drive.google.com/drive/folders/1-2SifQO3BlOeNZZ1YPTHMX6EId2KJch5?usp=drive_link).
 - **Results and Analysis**: Includes accuracy metrics, result images, confusion matrix, and plots of validation accuracy vs. epochs and loss vs. epochs.
-   **Result Image**:
+
+  **Result Image**:
   ![Result Image](Result.png)
    **Confusion Matrix**:
   ![Confusion Matrix](confusion_matrix.png)
